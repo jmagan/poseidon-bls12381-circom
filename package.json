@@ -1,0 +1,31 @@
+{
+  "name": "poseidon-bls12381-circom",
+  "version": "1.0.0",
+  "description": "Circom circuit of the Poseidon hash for BLS12-381",
+  "main": "index.js",
+  "repository": "https://github.com/jmagan/poseidon-bl12381-circom",
+  "author": "Juan Salvador Magán Valero",
+  "license": "MIT",
+  "keywords": [
+    "poseidon",
+    "bls12-381",
+    "hash",
+    "hash function",
+    "hashing",
+    "elliptic curve",
+    "zero knowledge",
+    "zk",
+    "zkp",
+    "circom"
+  ],
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.5.4",
+    "circomkit": "^0.3.0",
+    "mocha": "^10.7.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}

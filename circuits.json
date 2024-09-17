@@ -1,0 +1,9 @@
+{
+    "poseidon255_2": {
+        "file": "poseidon255",
+        "template": "Poseidon255",
+        "params": [
+            2
+        ]
+    }
+}
