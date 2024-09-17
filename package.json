@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Circom circuit of the Poseidon hash for BLS12-381",
   "main": "index.js",
-  "repository": "https://github.com/jmagan/poseidon-bl12381-circom",
+  "repository": "git+https://github.com/jmagan/poseidon-bl12381-circom.git",
   "author": "Juan Salvador Magán Valero",
   "license": "MIT",
   "keywords": [
