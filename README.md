@@ -2,7 +2,7 @@
 
 This repository contains an implementation of the Poseidon hash function, based on the [Poseidon paper](https://eprint.iacr.org/2019/458.pdf). The circuit is optimized for use with the BLS12-381 elliptic curve, and the constants are generated using the [official Poseidon implementation](https://extgit.iaik.tugraz.at/krypto/hadeshash), ensuring a security level of 128 bits.
 
-## TO-DO
+## 📋 TO-DO
 
 The paper provides an appendix with a more efficient implementation. This current version is an initial iteration, and incorporating the optimized approach from the appendix could further reduce the number of constraints.
 
@@ -29,3 +29,7 @@ include "./node_modules/poseidon-bls12381-circom/circuits/poseidon255.circom";
 
 component main = Poseidon255(2);
 ```
+
+### TypeScript Implementation
+
+You can also use the TypeScript version of [Poseidon for BLS12-381](https://github.com/jmagan/poseidon-bls12381) if needed.
